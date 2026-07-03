@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Profile-Lincro</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="lincro.html">
+                    <img src="Images/logo.png" alt="Lincro">
+                </a>
+            </div>
+            <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#">Explore</a>
+                <div class="divider"></div>
+                <a href="#">
+                    <i class="fa-solid fa-globe"></i>
+                    EN
+                </a>
+                <div class="divider"></div>
+                <a href="#">USD</a>
+                <i class="fa-regular fa-bell icon"></i>
+                <i class="fa-regular fa-comment icon"></i>
+                <a href="#">Sign In</a>
+                <button class="join-btn">
+                    Join Lincro
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="profile-page">
+
+        <div class="profile-hero"></div>
+
+        <div class="container">
+            <a href="professionals.html" class="back-link"
+                style="margin-top: 20px; color: #fff; position: relative; z-index: 10;">
+                <i class="fa-solid fa-arrow-left"></i> Back to Professionals
+            </a>
+
+            <div class="profile-header-card">
+                <div class="profile-avatar-container">
+                    <img src="Images/plumbing.jpg" alt="John Doe" class="profile-main-avatar">
+                </div>
+                <div class="profile-main-info">
+                    <div class="title-action-row">
+                        <div class="name-badge">
+                            <h1 class="profile-name">John Doe</h1>
+                            <i class="fa-solid fa-circle-check verified-badge-large"></i>
+                        </div>
+                        <button class="hire-btn">Hire Me</button>
+                    </div>
+                    <p class="profile-tagline">Plumbing Professional</p>
+
+                    <div class="profile-metrics">
+                        <div class="metric">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="metric-val">4.9</span>
+                            <span class="metric-sub">(12 Reviews)</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="metric-val">Colombo</span>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <span class="metric-val">10+ Years Exp</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-body-grid">
+                <div class="profile-main-content">
+                    <section class="content-section">
+                        <h2>About Me</h2>
+                        <p>Expert plumber with over 10 years of experience in residential and commercial plumbing
+                            systems. I pride myself on providing fast, reliable, and high-quality service to all my
+                            clients. Whether it's a leaky faucet, a burst pipe, or a complete bathroom remodel, I have
+                            the skills and tools to get the job done right the first time.</p>
+                        <p>I am fully licensed and insured, and I stay up-to-date with the latest plumbing technologies
+                            and techniques to ensure the best possible results.</p>
+                    </section>
+
+                    <section class="content-section">
+                        <h2>Services Offered</h2>
+                        <div class="services-chips">
+                            <div class="service-chip">
+                                <i class="fa-solid fa-wrench"></i>
+                                <span>Pipe Repair</span>
+                            </div>
+                            <div class="service-chip">
+                                <i class="fa-solid fa-droplet"></i>
+                                <span>Leak Detection</span>
+                            </div>
+                            <div class="service-chip">
+                                <i class="fa-solid fa-sink"></i>
+                                <span>Fixture Installation</span>
+                            </div>
+                            <div class="service-chip">
+                                <i class="fa-solid fa-fire-burner"></i>
+                                <span>Water Heaters</span>
+                            </div>
+                            <div class="service-chip">
+                                <i class="fa-solid fa-toilet"></i>
+                                <span>Toilet Repair</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="content-section">
+                        <h2>Client Reviews</h2>
+                        <div class="reviews-list">
+                            <div class="review-item">
+                                <div class="reviewer-top">
+                                    <div class="reviewer-av">L</div>
+                                    <div class="reviewer-details">
+                                        <h4>Lakmal</h4>
+                                        <span>2 weeks ago</span>
+                                    </div>
+                                    <div class="review-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <p>fantastic! He arrived on time, quickly diagnosed the issue,
+                                    and had it fixed in no time. Highly recommend his services.</p>
+                            </div>
+
+                            <div class="review-item">
+                                <div class="reviewer-top">
+                                    <div class="reviewer-av">K</div>
+                                    <div class="reviewer-details">
+                                        <h4>Kolithe</h4>
+                                        <span>1 month ago</span>
+                                    </div>
+                                    <div class="review-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <p>Good work on replacing the pipes under the sink. A bit pricey but the quality of work
+                                    is undeniable.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="profile-sidebar-content">
+                    <div class="sidebar-box">
+                        <h3>Contact Info</h3>
+                        <div class="contact-rows">
+                            <div class="contact-row">
+                                <i class="fa-regular fa-envelope"></i>
+                                <span>Message via Lincro</span>
+                            </div>
+                            <div class="contact-row">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>Phone (After Booking)</span>
+                            </div>
+                            <div class="contact-row">
+                                <i class="fa-regular fa-clock"></i>
+                                <span>Responds within 1 hr</span>
+                            </div>
+                        </div>
+                        <button class="message-pro-btn">Send Message</button>
+                    </div>
+
+                    <div class="sidebar-box">
+                        <h3>Languages</h3>
+                        <div class="lang-tags">
+                            <span class="lang-tag">English (Fluent)</span>
+                            <span class="lang-tag">Sinhala (Native)</span>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-box">
+                        <h3>Availability</h3>
+                        <div class="availability-status">
+                            <div class="status-dot"></div>
+                            <span>Available Now</span>
+                        </div>
+                        <p class="working-hours">Mon - Sat: 8:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <div class="modal-overlay" id="hireMeModal">
+        <div class="modal-content hire-modal-content">
+            <button class="close-modal" id="closeHireModalBtn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+
+            <div id="hireFormContainer">
+                <h2>Hire <span id="hireProName">Professional</span></h2>
+                <p>Fill out the details below to request a service.</p>
+                <form id="hireForm" class="hire-form">
+                    <div class="form-group">
+                        <label for="serviceType">Service Required</label>
+                        <input type="text" id="serviceType" required placeholder="e.g. Leak repair, Deep cleaning">
+                    </div>
+                    <div class="form-group">
+                        <label for="serviceAddress">Your Address</label>
+                        <input type="text" id="serviceAddress" required placeholder="Full address">
+                    </div>
+                    <div class="form-group">
+                        <label for="preferredDate">Preferred Date</label>
+                        <input type="date" id="preferredDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="preferredTime">Preferred Time</label>
+                        <input type="time" id="preferredTime" required>
+                    </div>
+                    <button type="submit" class="submit-hire-btn">Confirm Booking</button>
+                </form>
+            </div>
+
+
+            <div id="hireConfirmation" style="display: none;">
+                <div class="modal-icon-container"
+                    style="color: #10b981; background: rgba(16, 185, 129, 0.1); border-color: rgba(16, 185, 129, 0.3);">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <h2>Booking <span>Confirmed!</span></h2>
+                <p>The professional will arrive on:</p>
+                <div class="arrival-time-card">
+                    <i class="fa-regular fa-calendar-check"></i>
+                    <span id="confirmedArrivalDate"></span> at <span id="confirmedArrivalTime"></span>
+                </div>
+                <p style="margin-top: 15px; font-size: 14px;">We've sent the details to the professional. They might
+                    contact you soon.</p>
+                <button class="submit-hire-btn" id="doneHireBtn" style="margin-top: 20px;">Done</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Professionals | Lincro</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="lincro.html">
+                    <img src="Images/logo.png" alt="Lincro">
+                </a>
+            </div>
+            <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#">Explore</a>
+                <div class="divider"></div>
+                <a href="#">
+                    <i class="fa-solid fa-globe"></i>
+                    EN
+                </a>
+                <div class="divider"></div>
+                <a href="#">USD</a>
+                <i class="fa-regular fa-bell icon"></i>
+                <i class="fa-regular fa-comment icon"></i>
+                <a href="#">Sign In</a>
+                <button class="join-btn">
+                    Join Lincro
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="professionals-page">
+        <div class="container">
+            <a href="lincro.html" class="back-link">
+                <i class="fa-solid fa-arrow-left"></i> Back to Home
+            </a>
+
+            <div class="page-header">
+                <h1>Home Cleaning Professionals</h1>
+                <p>Find and hire trusted experts</p>
+            </div>
+
+            <div class="search-filter-section">
+                <div class="pro-search-bar">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" placeholder="Search by name...">
+                    <button class="search-btn">Search</button>
+                </div>
+
+                <div class="pro-category-filters">
+                    <button class="filter-pill active">All Services</button>
+                    <button class="filter-pill">Plumbing</button>
+                    <button class="filter-pill">Home Cleaning</button>
+                    <button class="filter-pill">Electrical</button>
+                    <button class="filter-pill">Vehicle Repair</button>
+                </div>
+            </div>
+
+            <div class="professionals-grid">
+
+                <div class="pro-card">
+                    <div class="pro-avatar">
+                        <img src="Images/mechanic.png" alt="Hansul Rahman">
+                    </div>
+                    <div class="pro-info">
+                        <h3 class="pro-name">
+                            Hansul Rahman
+                            <i class="fa-solid fa-circle-check verified-badge"></i>
+                        </h3>
+                        <p class="pro-category">Home Cleaning</p>
+                        <div class="pro-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="rating-score">4.8</span>
+                            <span class="rating-count">(4)</span>
+                        </div>
+                        <p class="pro-description">
+                            I'm an undergraduate at Uva Wellassa University, Sri Lanka, exploring the intersection of
+                            software...
+                        </p>
+                        <div class="pro-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>oddamavadi</span>
+                        </div>
+                        <a href="profile.html" class="view-profile-btn">View Profile</a>
+                    </div>
+                </div>
+
+
+                <div class="pro-card">
+                    <div class="pro-avatar">
+                        <img src="Images/plumbing.jpg" alt="John Doe">
+                    </div>
+                    <div class="pro-info">
+                        <h3 class="pro-name">
+                            Anojan
+                            <i class="fa-solid fa-circle-check verified-badge"></i>
+                        </h3>
+                        <p class="pro-category">Plumbing</p>
+                        <div class="pro-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="rating-score">4.9</span>
+                            <span class="rating-count">(12)</span>
+                        </div>
+                        <p class="pro-description">
+                            Expert plumber with over 10 years of experience in residential and commercial plumbing
+                            systems.
+                        </p>
+                        <div class="pro-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>colombo</span>
+                        </div>
+                        <a href="profile.html" class="view-profile-btn">View Profile</a>
+                    </div>
+                </div>
+
+
+                <div class="pro-card">
+                    <div class="pro-avatar">
+                        <img src="Images/Electrical.jpg" alt="Zara">
+                    </div>
+                    <div class="pro-info">
+                        <h3 class="pro-name">
+                            Zara
+                            <i class="fa-solid fa-circle-check verified-badge"></i>
+                        </h3>
+                        <p class="pro-category">Electrical</p>
+                        <div class="pro-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="rating-score">4.7</span>
+                            <span class="rating-count">(8)</span>
+                        </div>
+                        <p class="pro-description">
+                            Certified electrician specializing in home wiring, panel upgrades, and smart home
+                            installations.
+                        </p>
+                        <div class="pro-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>kandy</span>
+                        </div>
+                        <a href="profile.html" class="view-profile-btn">View Profile</a>
+                    </div>
+                </div>
+
+
+                <div class="pro-card">
+                    <div class="pro-avatar">
+                        <img src="Images/mechanic.png" alt="Aathil">
+                    </div>
+                    <div class="pro-info">
+                        <h3 class="pro-name">
+                            Aathil
+                        </h3>
+                        <p class="pro-category">Vehicle Repair</p>
+                        <div class="pro-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="rating-score">4.5</span>
+                            <span class="rating-count">(21)</span>
+                        </div>
+                        <p class="pro-description">
+                            Mobile mechanic providing reliable diagnostics, tune-ups, and emergency repairs at your
+                            location.
+                        </p>
+                        <div class="pro-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>galle</span>
+                        </div>
+                        <a href="profile.html" class="view-profile-btn">View Profile</a>
+                    </div>
+                </div>
+
+
+                <div class="pro-card">
+                    <div class="pro-avatar">
+                        <img src="Images/home cleaning.png" alt="Yesiru">
+                    </div>
+                    <div class="pro-info">
+                        <h3 class="pro-name">
+                            Yesiru
+                            <i class="fa-solid fa-circle-check verified-badge"></i>
+                        </h3>
+                        <p class="pro-category">Home Cleaning</p>
+                        <div class="pro-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="rating-score">5.0</span>
+                            <span class="rating-count">(15)</span>
+                        </div>
+                        <p class="pro-description">
+                            Meticulous cleaner offering deep cleaning, move-in/move-out services, and regular
+                            maintenance.
+                        </p>
+                        <div class="pro-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>batticaloa</span>
+                        </div>
+                        <a href="profile.html" class="view-profile-btn">View Profile</a>
+                    </div>
+                </div>
+
+
+                <div class="pro-card">
+                    <div class="pro-avatar">
+                        <img src="Images/plumbing.jpg" alt="Nerio">
+                    </div>
+                    <div class="pro-info">
+                        <h3 class="pro-name">
+                            Nerio
+                        </h3>
+                        <p class="pro-category">Plumbing</p>
+                        <div class="pro-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="rating-score">4.6</span>
+                            <span class="rating-count">(34)</span>
+                        </div>
+                        <p class="pro-description">
+                            Quick response plumber for leak repairs, drain cleaning, and pipe installations.
+                        </p>
+                        <div class="pro-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>negombo</span>
+                        </div>
+                        <a href="profile.html" class="view-profile-btn">View Profile</a>
+                    </div>
+                </div>
+
+
+                <div class="pro-card">
+                    <div class="pro-avatar">
+                        <img src="Images/Electrical.jpg" alt="Firthous">
+                    </div>
+                    <div class="pro-info">
+                        <h3 class="pro-name">
+                            Firthous
+                            <i class="fa-solid fa-circle-check verified-badge"></i>
+                        </h3>
+                        <p class="pro-category">Electrical</p>
+                        <div class="pro-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="rating-score">4.9</span>
+                            <span class="rating-count">(19)</span>
+                        </div>
+                        <p class="pro-description">
+                            Experienced in both residential and commercial electrical troubleshooting and repair.
+                        </p>
+                        <div class="pro-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>kurunegala</span>
+                        </div>
+                        <a href="profile.html" class="view-profile-btn">View Profile</a>
+                    </div>
+                </div>
+
+
+                <div class="pro-card">
+                    <div class="pro-avatar">
+                        <img src="Images/mechanic.png" alt="Pasidu">
+                    </div>
+                    <div class="pro-info">
+                        <h3 class="pro-name">
+                            Pasidu
+                            <i class="fa-solid fa-circle-check verified-badge"></i>
+                        </h3>
+                        <p class="pro-category">Vehicle Repair</p>
+                        <div class="pro-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="rating-score">4.8</span>
+                            <span class="rating-count">(42)</span>
+                        </div>
+                        <p class="pro-description">
+                            Specialized in engine diagnostics, brake replacements, and general automotive maintenance.
+                        </p>
+                        <div class="pro-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>matara</span>
+                        </div>
+                        <a href="profile.html" class="view-profile-btn">View Profile</a>
+                    </div>
+                </div>
+
+
+                <div class="pro-card">
+                    <div class="pro-avatar">
+                        <img src="Images/home cleaning.png" alt="Danstan">
+                    </div>
+                    <div class="pro-info">
+                        <h3 class="pro-name">
+                            Danstan
+                        </h3>
+                        <p class="pro-category">Home Cleaning</p>
+                        <div class="pro-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="rating-score">4.4</span>
+                            <span class="rating-count">(7)</span>
+                        </div>
+                        <p class="pro-description">
+                            Friendly and efficient home cleaner passionate about creating spotless living spaces.
+                        </p>
+                        <div class="pro-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>jaffna</span>
+                        </div>
+                        <a href="profile.html" class="view-profile-btn">View Profile</a>
+                    </div>
+                </div>
+
+
+                <div class="pro-card">
+                    <div class="pro-avatar">
+                        <img src="Images/plumbing.jpg" alt="Vithu">
+                    </div>
+                    <div class="pro-info">
+                        <h3 class="pro-name">
+                            Vithu
+                            <i class="fa-solid fa-circle-check verified-badge"></i>
+                        </h3>
+                        <p class="pro-category">Plumbing</p>
+                        <div class="pro-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="rating-score">4.9</span>
+                            <span class="rating-count">(28)</span>
+                        </div>
+                        <p class="pro-description">
+                            Master plumber providing top-notch service for all your water heater and piping needs.
+                        </p>
+                        <div class="pro-location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>trincomalee</span>
+                        </div>
+                        <a href="profile.html" class="view-profile-btn">View Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
